@@ -1,0 +1,228 @@
+/* leptop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .shape-app-02 {
+        right: -20%;
+    }
+    .main-app {
+        margin-left: -73px;
+    }
+}
+
+
+/* lg :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin: 0 5px;
+    }
+    .slider-height {
+        min-height: 1075px;
+        background-position: center center;
+    }
+    .shape-02 {
+        bottom: 14%;
+        left: 65%;
+    }
+    .feature-text p {
+        padding: 0;
+    }
+    .overview-img img {
+        max-width: 100%;
+    }
+    
+    .overview-text {
+        padding-top: 75px;
+    }
+    .pricing-area {
+        padding-top: 130px;
+    }
+    .faq-area {
+        margin-top: -434px;
+    }
+    .single-fact::after {
+        right: -12px;
+    }
+    .faq-app img {
+        max-width: 100%;
+    }
+    .faq-wrapper {
+        padding-top: 0;
+    }
+    .latest-blog-content {
+        padding: 0 20px;
+      }
+    .inner-blog {
+        padding: 30px 25px;
+    }
+
+}
+
+ 
+/* Tablet/md desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .sticky-menu {
+        padding-top: 17px;
+        padding-bottom: 10px;
+    }
+    .slider-height {
+        min-height: 970px;
+        background-position: bottom;
+    }
+    .slider-content-space {
+        padding-top: 240px;
+    }
+    .shape-01 {
+        top: 13%;
+        left: 2%;
+    }
+    .fact-area {
+        margin-top: -60px;
+    }
+    .single-fact::after {
+        right: -12px;
+    }
+    .feature-text p {
+        padding: 0;
+    }
+    .overview-text.pt-200 {
+        padding-top: 20px;
+    }
+    .overview-area {
+        background-size: cover;
+    }
+    .faq-area {
+        margin-top: -354px;
+    }
+    .inner-blog {
+        padding: 30px 26px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .sticky-menu {
+        padding-top: 17px;
+        padding-bottom: 10px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 20px 60px;
+    }
+    .slider-height {
+        min-height: 895px;
+        background-position: bottom;
+    }
+    .slider-content-space {
+        padding-top: 180px;
+    }
+    .slider-text h2 {
+        font-size: 36px !important;
+        padding-right: 0;
+    }
+    .slider-text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .slider-btn a {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    .shape-wrapper{
+        display: none;
+    }
+    .fact-area {
+        margin-top: -140px;
+    }
+    .feature-text p {
+        padding: 0;
+    }
+    .play-icon-wrapper {
+        width: 100px;
+        height: 100px;
+    }
+    .play-icon {
+        top: 36px;
+        left: 42px;
+    }
+    .video-wrapper {
+        padding-top: 120px;
+        padding-bottom: 164px;
+        background-position: center 68%;
+    }
+    .video-wrapper h3 {
+        font-size: 36px;
+    }
+    .overview-area {
+        background: no-repeat;
+    }
+    .overview-img img {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .overview-text h3 {
+        font-size: 28px;
+    }
+    .overview-btn a {
+        padding: 23px 30px;
+    }
+    .overview-text.pt-200 {
+        padding-top: 30px;
+    }
+    .faq-app img {
+        max-width: 100%;
+        position: relative;
+        left: 43px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .section-title p {
+        font-size: 15px;
+        margin: 0;
+        line-height: 25px;
+    }
+    .price-box {
+        margin-bottom: 10px;
+    }
+    .test-item p {
+        font-size: 20px;
+    }
+    .test-img-active img {
+        display: inline-block;
+    }
+    .test-img-item:before {
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: auto;
+    }
+    .single-brand {
+        text-align: center;
+    }
+    .latest-blog-content {
+        padding: 0 22px;
+    }
+    .inner-blog{
+        padding: 30px 30px;
+    }
+    .subscribe-title h3 {
+        font-size: 28px;
+    }
+    .subscribe-space {
+        padding: 25px 15px;
+        border-radius: 20px;
+    }
+    .subscribe-form input {
+        height: 63px;
+        font-weight: 600;
+    }
+    .subscribe-form button {
+        position: static;
+        margin-top: 15px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+}
